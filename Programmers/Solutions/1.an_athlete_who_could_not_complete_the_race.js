@@ -10,3 +10,5 @@ function solution(participant, completion) {
     else return true
   })
 }
+
+solution(['leo', 'kiki', 'eden'], ['eden', 'kiki']) // return 'leo'
