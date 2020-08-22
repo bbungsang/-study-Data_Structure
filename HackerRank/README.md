@@ -8,3 +8,4 @@
 | 4 | [Drawing Book](https://www.hackerrank.com/challenges/drawing-book/problem) || [Javascript](Solutions/drawing_book.js) | Easy |
 | 5 | [Kangaroo](https://www.hackerrank.com/challenges/kangaroo/problem) || [Javascript](Solutions/kangaroo.js) | Easy |
 | 6 | [Taum and B'day](https://www.hackerrank.com/challenges/taum-and-bday/problem) || [Javascript](Solutions/taum_and_bday.js) | Easy |
+| 7 | [Closest Numbers](https://www.hackerrank.com/challenges/closest-numbers/problem) || [Javascript](Solutions/closest_numbers.js) | Easy |
