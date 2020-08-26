@@ -1,6 +1,8 @@
 function closestNumbers(arr) {
   arr.sort((a, b) => a - b)
 
+  let min = 0
+
   const obj = arr.reduce((acc, cur, idx) => {
     if ((idx + 1) < arr.length) {
       const next = arr[idx + 1]
@@ -8,12 +10,13 @@ function closestNumbers(arr) {
 
       if (acc[diff]) acc[diff].push(...[cur, next])
       else acc[diff] = [cur, next]
+
+      if (!min || (min > diff)) min = diff
     }
 
     return acc
   }, {})
 
-  const min = Math.min(...(Object.keys(obj).map((d) => +d)))
   return obj[min]
 }
 
