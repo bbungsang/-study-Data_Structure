@@ -13,3 +13,4 @@
 | 9 | [Encryption](https://www.hackerrank.com/challenges/encryption/problem) || [Javascript](Solutions/encryption.js) | Medium |
 | 10 | [Minimum Distance](https://www.hackerrank.com/challenges/minimum-distances/problem) || [Javascript](Solutions/minimum_distances.js) | Easy |
 | 11 | [Breaking the Records](https://www.hackerrank.com/challenges/breaking-best-and-worst-records/problem) || [Javascript](Solutions/breaking_best_and_worst_records.js) | Easy |
+| 12 | [Larry's Array](https://www.hackerrank.com/challenges/larrys-array/problem) || [Javascript](Solutions/larrys-array.js) | Medium |

@@ -1,7 +1,7 @@
 function heapSort(arr) {
   if (arr.length < 2) return arr
 
-  if (arr[0]) {
+  if (arr[0] !== null) {
     arr.unshift(null)
   }
 
