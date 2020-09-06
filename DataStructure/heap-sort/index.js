@@ -19,19 +19,21 @@ function heapSort(arr) {
 }
 
 function heapify(arr, idx) {
-  let parentIdx = 1, childIdx = 2
-  let isChanged = false, isHeapified = true
+  let parentIdx = 1
+  let childIdx = 2
+
+  let isHeapified = true
+  let isSwapped = false
 
   while (isHeapified) {
     const parent = arr[parentIdx]
     const child = arr[childIdx]
 
     if (parent < child) {
-      const temp = parent
       arr[parentIdx] = child
-      arr[childIdx] = temp
+      arr[childIdx] = parent
 
-      isChanged = true
+      isSwapped = true
     }
 
     const isRight = (parentIdx * 2) < childIdx
@@ -39,8 +41,8 @@ function heapify(arr, idx) {
     childIdx = !isRight ? childIdx + 1 : parentIdx * 2
 
     if (childIdx >= (arr.length - idx)) {
-      isHeapified = isChanged
-      isChanged = false
+      isHeapified = isSwapped
+      isSwapped = false
 
       parentIdx = 1
       childIdx = 2
