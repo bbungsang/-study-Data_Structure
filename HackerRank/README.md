@@ -16,3 +16,4 @@
 | 12 | [Larry's Array](https://www.hackerrank.com/challenges/larrys-array/problem) || [Javascript](Solutions/larrys-array.js) | Medium ||
 | 13 | [Pairs](https://www.hackerrank.com/challenges/pairs/problem) || [Javascript](Solutions/pairs.js) | Medium | 테스트 케이스 2개 깨짐 |
 | 14 | [Extra Long Factorials](https://www.hackerrank.com/challenges/extra-long-factorials/problem) || [Javascript](Solutions/extra-long-factorials.js) | Medium ||
+| 15 | [Modified Kaprekar Numbers](https://www.hackerrank.com/challenges/kaprekar-numbers/problem) || [Javascript](Solutions/kaprekar-numbers.js) | Easy ||
