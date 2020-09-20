@@ -15,5 +15,4 @@
 | 11 | [Breaking the Records](https://www.hackerrank.com/challenges/breaking-best-and-worst-records/problem) || [Javascript](Solutions/breaking_best_and_worst_records.js) | Easy ||
 | 12 | [Larry's Array](https://www.hackerrank.com/challenges/larrys-array/problem) || [Javascript](Solutions/larrys-array.js) | Medium ||
 | 13 | [Pairs](https://www.hackerrank.com/challenges/pairs/problem) || [Javascript](Solutions/pairs.js) | Medium | 테스트 케이스 2개 깨짐 |
-| 14 | [Equalize the Array](https://www.hackerrank.com/challenges/equality-in-a-array/problem) || [Javascript](Solutions/equality-in-a-array.js) | Easy ||
-| 15 | [Extra Long Factorials](https://www.hackerrank.com/challenges/extra-long-factorials/problem) || [Javascript](Solutions/extra-long-factorials.js) | Medium ||
+| 14 | [Extra Long Factorials](https://www.hackerrank.com/challenges/extra-long-factorials/problem) || [Javascript](Solutions/extra-long-factorials.js) | Medium ||
